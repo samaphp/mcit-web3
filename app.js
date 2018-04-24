@@ -10,7 +10,7 @@ web3.eth.getAccounts(function(err, accounts){
 });
 
 
-web3.eth.getBalance('0x087d203b442e3F3104cc3640894E559E66517539', function(err, balance){
+web3.eth.getBalance('0x5300670e39956cc2682634e925b98b426ba18a74', function(err, balance){
 	console.log(err ? err : balance);
 });
 /*
