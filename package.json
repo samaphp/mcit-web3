@@ -1,7 +1,7 @@
 {
   "name": "web3demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test ganache-cli with ConsenSys Company engineers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "web3": "^1.0.0-beta.34"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samaphp/mcit-web3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samaphp/mcit-web3/issues"
+  },
+  "homepage": "https://github.com/samaphp/mcit-web3#readme",
+  "description": ""
 }
