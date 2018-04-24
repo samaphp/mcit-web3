@@ -29,3 +29,10 @@ web3.eth.getAccounts(function(err, accounts){
 web3.eth.getTransaction('0x8c8749223504e7ee6b1729465af25cded891fd16bb9b9e97dbb6fb1b441e9be4', function(err, tx){
 	console.log(err ? err : tx);
 });
+
+console.log('-');
+
+// Getting the balance of my first account.
+web3.eth.getBalance('0x89Ae05B11eAaD732fB6E507f3D71c8A759616C0A', function(err, balance){
+	console.log(err ? err : balance);
+});
